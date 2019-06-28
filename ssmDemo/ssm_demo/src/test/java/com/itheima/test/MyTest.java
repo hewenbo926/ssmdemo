@@ -27,4 +27,12 @@ public class MyTest {
         System.out.println("hello world");
         System.out.println("hello world");
     }
+
+    @Test
+    public void test1(){
+        int i = 0 ;
+        i+=10;
+        System.out.println(i);
+    }
+
 }
